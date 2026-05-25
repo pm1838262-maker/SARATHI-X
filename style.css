@@ -1,0 +1,33 @@
+body{
+    background: #050505;
+    color: orange;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 50px;
+    text-shadow: 0 0 20px orange;
+}
+
+p{
+    color: #ffb347;
+    font-size: 20px;
+}
+
+button{
+    padding: 15px 35px;
+    background: orange;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 0 20px orange;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 40px orange;
+}
